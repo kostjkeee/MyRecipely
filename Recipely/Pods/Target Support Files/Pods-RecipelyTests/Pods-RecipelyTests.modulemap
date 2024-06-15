@@ -1,0 +1,6 @@
+framework module Pods_RecipelyTests {
+  umbrella header "Pods-RecipelyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

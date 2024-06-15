@@ -1,0 +1,33 @@
+{
+  "originHash" : "84b47bad62ffd9aca0e998227df81a7348ada601da93285043316bdf85449a20",
+  "pins" : [
+    {
+      "identity" : "autorizationfieldlibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dimmis8/AutorizationFieldLibrary.git",
+      "state" : {
+        "revision" : "0627c870d2bd908e23a554e757dd9989cf975461",
+        "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "ios-maps-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googlemaps/ios-maps-sdk",
+      "state" : {
+        "revision" : "bd392d7d844b49ec6795871a3c25edd01ab839f2",
+        "version" : "8.4.0"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "463cb2d659c8ae34899d18057ea5b1bb86fc3178",
+        "version" : "2.8.4"
+      }
+    }
+  ],
+  "version" : 3
+}

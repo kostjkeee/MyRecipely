@@ -1,0 +1,3 @@
+// DetailsDTO.swift
+
+import Foundation

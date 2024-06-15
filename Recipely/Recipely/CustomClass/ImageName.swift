@@ -1,0 +1,61 @@
+// ImageName.swift
+
+import Foundation
+
+/// Названия картинок
+enum ImageName: String {
+    case arrow
+    case bacgroundImageCell
+    case bonusesBox
+    case bonusesStar
+    case cancel
+    case chicken
+    case desserts
+    case detailsIcon
+    case backedFish
+    case chilliAndTomato
+    case fastRoast
+    case lemonAndChilli
+    case salmon
+    case simpleFish
+    case dismissButton
+    case drinks
+    case email
+    case favoritesIcon
+    case fish
+    case goToIcon
+    case lightning
+    case line
+    case lockIcon
+    case meat
+    case pancake
+    case pencil
+    case pizza
+    case pot
+    case profileIcon
+    case recipesIcon
+    case reload
+    case salad
+    case saved
+    case savedIcon1
+    case saveIcon
+    case searchGlass
+    case selectedFavoriteIcon
+    case selectedProfileIcon
+    case selectedRecipesIcon
+    case sendIcon
+    case shareIcon
+    case sheetIcon
+    case sideDish
+    case sortDirection
+    case soup
+    case starIcon
+    case timer
+    case timerDetails
+    case unvisibility
+    case userDefaultIcon
+    case voznyak
+    case visibility
+    case whiteSortDirection
+    case whiteSortDirectionRevers
+}

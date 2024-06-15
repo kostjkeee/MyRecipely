@@ -1,0 +1,20 @@
+PODS:
+  - Keychain (0.3.1)
+  - SwiftGen (6.6.3)
+
+DEPENDENCIES:
+  - Keychain
+  - SwiftGen (~> 6.0)
+
+SPEC REPOS:
+  trunk:
+    - Keychain
+    - SwiftGen
+
+SPEC CHECKSUMS:
+  Keychain: ef812eafcf6593fe4409b07cfecc00b95fb373ed
+  SwiftGen: 4993cbf71cbc4886f775e26f8d5c3a1188ec9f99
+
+PODFILE CHECKSUM: fa09f1ebcea894bc78364277b4289ad67de61ea9
+
+COCOAPODS: 1.12.1

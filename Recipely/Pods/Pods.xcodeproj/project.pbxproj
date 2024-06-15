@@ -1,0 +1,1295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftGen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02F86B86081C2123C3A75E1ECC001CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		03012EA922A56DEDF7645C8CFC930933 /* Pods-Recipely-Mock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DE7A184416B53CAD9E5A1FE043F2ED /* Pods-Recipely-Mock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD4D1F139B37A724DE2100F5378573B /* Pods-RecipelyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DAD4503444C3B96B9EE4392F9DB610 /* Pods-RecipelyUITests-dummy.m */; };
+		16894857105EA29FC50F9BC18C129628 /* Pods-Recipely-Mock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5335C13B5F1082156FE6CE60DD4F7CC /* Pods-Recipely-Mock-dummy.m */; };
+		1AA92C0C51ED204F0F8C26CE3F4E5C31 /* Pods-Recipely-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 368256305D88B19C8802A1F79D26CB71 /* Pods-Recipely-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEDE89F63DD6CA98FD12004EC07DC0A /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308CE8076B7F841A9792E460EA3CB16E /* KeychainItem.swift */; };
+		3055576253E66BFC791064E0ADEA6EB0 /* KeychainItemClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46BD3FACB7CFF219924ED1F3170B451 /* KeychainItemClass.swift */; };
+		333015CC4DD91FAA68ED18D9C482C290 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88AF278F4E98ABCC7D8C263603AFCD /* Keychain.swift */; };
+		4BCF7B7EC971948B1CE7735D2E9D4219 /* KeychainItemFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D293A83A3D94FD3C032162290B10E /* KeychainItemFactory.swift */; };
+		4D205CAEB96E2FA15DE3F49D9B31FA52 /* Pods-Recipely-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8849ABC335EEE974DBAF7586FEB13BA3 /* Pods-Recipely-dummy.m */; };
+		4D762A0530D36D92BA3141436B4A57EF /* Pods-RecipelyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C62234C2C42FB31106A32C827DC98AE3 /* Pods-RecipelyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EC98C31D152DBCF00CFC006BD78D89 /* Keychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE24C25076271A954534452D3BAA9F2 /* Keychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9060D98D487B3A5503BABED67C9FB9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		95EAA68F714337D075EEAD135C6B8738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C6E931CD380E22D9914B780D0897EC5 /* Keychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F89F370E51850B4F373C301BE4BE2 /* Keychain-dummy.m */; };
+		9D9D56A602D6F3ABC0D0CA60371E4449 /* Pods-RecipelyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 517EF8BBECF9B0C54A782C10DBC0630A /* Pods-RecipelyTests-dummy.m */; };
+		D27280FD5994A711C46718EF7895B073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D33FCB7AA52ED19B8B81DEC37D42FD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F2FCAF89ED23738AF54ECF40327352C8 /* KeychainProtocolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130211D23D54D388FE0651C38FE2361 /* KeychainProtocolType.swift */; };
+		F7B776CA70D0EFF315809A7B83930CEB /* Pods-RecipelyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB9F97EC304A591238EE985AAC4A64C /* Pods-RecipelyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00F03B1BB9C659AA9A891D92D2E8211B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99A1AAC0FD1584B1C0B398B33671BEF;
+			remoteInfo = Keychain;
+		};
+		1EFFD49102408CC1E5E17F15820A491E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		2F8711E85C9AB8EEE3887B29AF491453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99A1AAC0FD1584B1C0B398B33671BEF;
+			remoteInfo = Keychain;
+		};
+		3E525B3BBCE186F17BF8150AC9FB481C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		72CADFE1BF3FAE9B5EBF1B4076AF823B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		9B1D2D837B13D5FFDBD4769F4143A883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99A1AAC0FD1584B1C0B398B33671BEF;
+			remoteInfo = Keychain;
+		};
+		A345162631602B06CC92BEAF0795F777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		C86AF8C05F1B8EA1CAFA1FB8CA096CBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99A1AAC0FD1584B1C0B398B33671BEF;
+			remoteInfo = Keychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0360FBC152C2C17D9AB9EF1044A6517D /* Pods-RecipelyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipelyTests-Info.plist"; sourceTree = "<group>"; };
+		0E2DCDFF60150A13F282B78D55C9FAE4 /* Pods-RecipelyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipelyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12141C3630109755738C98007F1656AC /* Pods-Recipely-Mock */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Recipely-Mock"; path = Pods_Recipely_Mock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1468C6DAB03A9BDE02014E0228F86826 /* Pods-RecipelyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecipelyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16DE7A184416B53CAD9E5A1FE043F2ED /* Pods-Recipely-Mock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Recipely-Mock-umbrella.h"; sourceTree = "<group>"; };
+		21265337EB369F2A2897AB0CD734D3CA /* Pods-RecipelyUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RecipelyUITests"; path = Pods_RecipelyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2249802912A431B96D86C3F378BCA3FB /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
+		2878CCDABB9E20DDB43451DA58974A26 /* Pods-Recipely-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Recipely-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AE24C25076271A954534452D3BAA9F2 /* Keychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keychain-umbrella.h"; sourceTree = "<group>"; };
+		2C8F89F370E51850B4F373C301BE4BE2 /* Keychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Keychain-dummy.m"; sourceTree = "<group>"; };
+		2EEA1B222193792AAC739A9390BF2A95 /* Pods-Recipely-Mock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Recipely-Mock.modulemap"; sourceTree = "<group>"; };
+		308CE8076B7F841A9792E460EA3CB16E /* KeychainItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItem.swift; path = Keychain/Classes/KeychainItem.swift; sourceTree = "<group>"; };
+		34E0A391245410107D1FBFA3EEA1B46A /* Pods-RecipelyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecipelyUITests.modulemap"; sourceTree = "<group>"; };
+		368256305D88B19C8802A1F79D26CB71 /* Pods-Recipely-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Recipely-umbrella.h"; sourceTree = "<group>"; };
+		38FEFECDC9EE229D513E5C751899642B /* Pods-RecipelyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecipelyTests-frameworks.sh"; sourceTree = "<group>"; };
+		39EE69456B97C0F8EBF5E89374F850C2 /* Keychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Keychain-Info.plist"; sourceTree = "<group>"; };
+		3C5064487877ADE13E47D4D69205942D /* Pods-RecipelyTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RecipelyTests"; path = Pods_RecipelyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D88AF278F4E98ABCC7D8C263603AFCD /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Keychain/Classes/Keychain.swift; sourceTree = "<group>"; };
+		4130211D23D54D388FE0651C38FE2361 /* KeychainProtocolType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainProtocolType.swift; path = Keychain/Classes/KeychainProtocolType.swift; sourceTree = "<group>"; };
+		4C1D293A83A3D94FD3C032162290B10E /* KeychainItemFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemFactory.swift; path = Keychain/Classes/KeychainItemFactory.swift; sourceTree = "<group>"; };
+		4C7C8774B8428B79F0E7F6314FD44477 /* Pods-Recipely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recipely.release.xcconfig"; sourceTree = "<group>"; };
+		4EA47893FB168AC620D02A30B8B93F4C /* Pods-RecipelyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipelyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F552A5D981F3D29527363F9A07CAF93 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
+		517EF8BBECF9B0C54A782C10DBC0630A /* Pods-RecipelyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecipelyTests-dummy.m"; sourceTree = "<group>"; };
+		60716C90CF91E4035F743523FEE67834 /* Keychain */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Keychain; path = Keychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CC439B7EA8BD2B79FDF6FEC42F8B19 /* Pods-RecipelyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipelyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67A3CE39836FC352D4BD0F7BC370CB55 /* Pods-RecipelyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipelyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		683BA9B19AB56EA873BFAEA16DFC327E /* Pods-Recipely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recipely.debug.xcconfig"; sourceTree = "<group>"; };
+		69881D59E6BC88488B5F0A88B6DA5B43 /* Keychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keychain-prefix.pch"; sourceTree = "<group>"; };
+		6E9B73DA22C76B8B83536034EF4C17AB /* Pods-RecipelyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecipelyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		712AF758C34D9771258D8D1391688CD9 /* Keychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Keychain.modulemap; sourceTree = "<group>"; };
+		71D5F3662E945BEE18E777404627B7F9 /* Pods-Recipely-Mock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Recipely-Mock-acknowledgements.plist"; sourceTree = "<group>"; };
+		72AF6584212016F8B789C7FE8E0BA0B1 /* Pods-Recipely-Mock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Recipely-Mock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78F27AB9E24EEA4907E34C0C3AA040FA /* Pods-RecipelyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipelyTests.release.xcconfig"; sourceTree = "<group>"; };
+		797F1B7D06CEDB9C4B9447A4428276F3 /* Pods-RecipelyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecipelyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7A31CC076182638A41548D7533DA0C48 /* Pods-Recipely-Mock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Recipely-Mock-Info.plist"; sourceTree = "<group>"; };
+		810455E4C519C8841C19C3B5EE722D4C /* Pods-RecipelyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipelyUITests-Info.plist"; sourceTree = "<group>"; };
+		8849ABC335EEE974DBAF7586FEB13BA3 /* Pods-Recipely-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Recipely-dummy.m"; sourceTree = "<group>"; };
+		91872DE436557494E6563274633E03B0 /* Keychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Keychain.release.xcconfig; sourceTree = "<group>"; };
+		92E90D1EE99EAD14ECE23158C9856DEC /* Pods-Recipely-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Recipely-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CB9F97EC304A591238EE985AAC4A64C /* Pods-RecipelyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecipelyUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDE2BA04086330E70CF168D9FF97582 /* Pods-RecipelyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecipelyTests.modulemap"; sourceTree = "<group>"; };
+		A5335C13B5F1082156FE6CE60DD4F7CC /* Pods-Recipely-Mock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Recipely-Mock-dummy.m"; sourceTree = "<group>"; };
+		C62234C2C42FB31106A32C827DC98AE3 /* Pods-RecipelyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecipelyTests-umbrella.h"; sourceTree = "<group>"; };
+		C6E08837AC42859508890C54F85E2DD8 /* Keychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Keychain.debug.xcconfig; sourceTree = "<group>"; };
+		CE6660CFA804C7C62202BBCACDE315D2 /* Pods-Recipely.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Recipely.modulemap"; sourceTree = "<group>"; };
+		CF552551B91AF3DC417AC31D8A565563 /* Pods-Recipely-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Recipely-frameworks.sh"; sourceTree = "<group>"; };
+		D17D9F029201B1D7EAE900087998DE87 /* Pods-Recipely-Mock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recipely-Mock.release.xcconfig"; sourceTree = "<group>"; };
+		D46BD3FACB7CFF219924ED1F3170B451 /* KeychainItemClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemClass.swift; path = Keychain/Classes/KeychainItemClass.swift; sourceTree = "<group>"; };
+		D75BF61E4490D373A096F5B6F2EFC3A5 /* Pods-Recipely-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Recipely-Info.plist"; sourceTree = "<group>"; };
+		F2BF6B79BD6AAC665EE209B994ED581D /* Pods-Recipely */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Recipely"; path = Pods_Recipely.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3984138447F800D6B0A4407ACCB0E7A /* Pods-RecipelyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipelyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F54C1A45A98801D2D3B78C38AA94FEE6 /* Pods-Recipely-Mock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recipely-Mock.debug.xcconfig"; sourceTree = "<group>"; };
+		F6DAD4503444C3B96B9EE4392F9DB610 /* Pods-RecipelyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecipelyUITests-dummy.m"; sourceTree = "<group>"; };
+		FAF1F1CD68CF20613AD2B66895F99956 /* Pods-Recipely-Mock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Recipely-Mock-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52182A598FC0FF3115AFADF9638B51BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EAA68F714337D075EEAD135C6B8738 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30D214F1D642DBD0C8DA645D3DA26A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27280FD5994A711C46718EF7895B073 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8DE1EA940340C03837881B81BDBC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33FCB7AA52ED19B8B81DEC37D42FD6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78EADB084161DC4AF17546BFEF2500E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9060D98D487B3A5503BABED67C9FB9C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7798A31B7228FCE9EFB2B33AFB9AB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F86B86081C2123C3A75E1ECC001CC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E9E1C8E52E475B93D782866EA4A8EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42121716A5C46D6E4DA7C39D36618D94 /* Pods-Recipely */,
+				71E7ED65FC840C8FF65290E52DD4CA60 /* Pods-Recipely-Mock */,
+				79C04CD9777A974535A4D9B38C76FB9A /* Pods-RecipelyTests */,
+				4E60F7B9B4A53A180D2D195B7758855C /* Pods-RecipelyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42121716A5C46D6E4DA7C39D36618D94 /* Pods-Recipely */ = {
+			isa = PBXGroup;
+			children = (
+				CE6660CFA804C7C62202BBCACDE315D2 /* Pods-Recipely.modulemap */,
+				2878CCDABB9E20DDB43451DA58974A26 /* Pods-Recipely-acknowledgements.markdown */,
+				92E90D1EE99EAD14ECE23158C9856DEC /* Pods-Recipely-acknowledgements.plist */,
+				8849ABC335EEE974DBAF7586FEB13BA3 /* Pods-Recipely-dummy.m */,
+				CF552551B91AF3DC417AC31D8A565563 /* Pods-Recipely-frameworks.sh */,
+				D75BF61E4490D373A096F5B6F2EFC3A5 /* Pods-Recipely-Info.plist */,
+				368256305D88B19C8802A1F79D26CB71 /* Pods-Recipely-umbrella.h */,
+				683BA9B19AB56EA873BFAEA16DFC327E /* Pods-Recipely.debug.xcconfig */,
+				4C7C8774B8428B79F0E7F6314FD44477 /* Pods-Recipely.release.xcconfig */,
+			);
+			name = "Pods-Recipely";
+			path = "Target Support Files/Pods-Recipely";
+			sourceTree = "<group>";
+		};
+		46F754930A54C54A79BDFB0D37265B96 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				3D88AF278F4E98ABCC7D8C263603AFCD /* Keychain.swift */,
+				308CE8076B7F841A9792E460EA3CB16E /* KeychainItem.swift */,
+				D46BD3FACB7CFF219924ED1F3170B451 /* KeychainItemClass.swift */,
+				4C1D293A83A3D94FD3C032162290B10E /* KeychainItemFactory.swift */,
+				4130211D23D54D388FE0651C38FE2361 /* KeychainProtocolType.swift */,
+				C15BC1AFC910C567B7707FF38CE915A7 /* Support Files */,
+			);
+			name = Keychain;
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		4E60F7B9B4A53A180D2D195B7758855C /* Pods-RecipelyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34E0A391245410107D1FBFA3EEA1B46A /* Pods-RecipelyUITests.modulemap */,
+				6E9B73DA22C76B8B83536034EF4C17AB /* Pods-RecipelyUITests-acknowledgements.markdown */,
+				F3984138447F800D6B0A4407ACCB0E7A /* Pods-RecipelyUITests-acknowledgements.plist */,
+				F6DAD4503444C3B96B9EE4392F9DB610 /* Pods-RecipelyUITests-dummy.m */,
+				797F1B7D06CEDB9C4B9447A4428276F3 /* Pods-RecipelyUITests-frameworks.sh */,
+				810455E4C519C8841C19C3B5EE722D4C /* Pods-RecipelyUITests-Info.plist */,
+				9CB9F97EC304A591238EE985AAC4A64C /* Pods-RecipelyUITests-umbrella.h */,
+				67A3CE39836FC352D4BD0F7BC370CB55 /* Pods-RecipelyUITests.debug.xcconfig */,
+				60CC439B7EA8BD2B79FDF6FEC42F8B19 /* Pods-RecipelyUITests.release.xcconfig */,
+			);
+			name = "Pods-RecipelyUITests";
+			path = "Target Support Files/Pods-RecipelyUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		71E7ED65FC840C8FF65290E52DD4CA60 /* Pods-Recipely-Mock */ = {
+			isa = PBXGroup;
+			children = (
+				2EEA1B222193792AAC739A9390BF2A95 /* Pods-Recipely-Mock.modulemap */,
+				72AF6584212016F8B789C7FE8E0BA0B1 /* Pods-Recipely-Mock-acknowledgements.markdown */,
+				71D5F3662E945BEE18E777404627B7F9 /* Pods-Recipely-Mock-acknowledgements.plist */,
+				A5335C13B5F1082156FE6CE60DD4F7CC /* Pods-Recipely-Mock-dummy.m */,
+				FAF1F1CD68CF20613AD2B66895F99956 /* Pods-Recipely-Mock-frameworks.sh */,
+				7A31CC076182638A41548D7533DA0C48 /* Pods-Recipely-Mock-Info.plist */,
+				16DE7A184416B53CAD9E5A1FE043F2ED /* Pods-Recipely-Mock-umbrella.h */,
+				F54C1A45A98801D2D3B78C38AA94FEE6 /* Pods-Recipely-Mock.debug.xcconfig */,
+				D17D9F029201B1D7EAE900087998DE87 /* Pods-Recipely-Mock.release.xcconfig */,
+			);
+			name = "Pods-Recipely-Mock";
+			path = "Target Support Files/Pods-Recipely-Mock";
+			sourceTree = "<group>";
+		};
+		79C04CD9777A974535A4D9B38C76FB9A /* Pods-RecipelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE2BA04086330E70CF168D9FF97582 /* Pods-RecipelyTests.modulemap */,
+				1468C6DAB03A9BDE02014E0228F86826 /* Pods-RecipelyTests-acknowledgements.markdown */,
+				0E2DCDFF60150A13F282B78D55C9FAE4 /* Pods-RecipelyTests-acknowledgements.plist */,
+				517EF8BBECF9B0C54A782C10DBC0630A /* Pods-RecipelyTests-dummy.m */,
+				38FEFECDC9EE229D513E5C751899642B /* Pods-RecipelyTests-frameworks.sh */,
+				0360FBC152C2C17D9AB9EF1044A6517D /* Pods-RecipelyTests-Info.plist */,
+				C62234C2C42FB31106A32C827DC98AE3 /* Pods-RecipelyTests-umbrella.h */,
+				4EA47893FB168AC620D02A30B8B93F4C /* Pods-RecipelyTests.debug.xcconfig */,
+				78F27AB9E24EEA4907E34C0C3AA040FA /* Pods-RecipelyTests.release.xcconfig */,
+			);
+			name = "Pods-RecipelyTests";
+			path = "Target Support Files/Pods-RecipelyTests";
+			sourceTree = "<group>";
+		};
+		BB76435DA78291FA2798D67C4319077F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46F754930A54C54A79BDFB0D37265B96 /* Keychain */,
+				DF9FE735BD68F0C74CE13793847E9988 /* SwiftGen */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C15BC1AFC910C567B7707FF38CE915A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				712AF758C34D9771258D8D1391688CD9 /* Keychain.modulemap */,
+				2C8F89F370E51850B4F373C301BE4BE2 /* Keychain-dummy.m */,
+				39EE69456B97C0F8EBF5E89374F850C2 /* Keychain-Info.plist */,
+				69881D59E6BC88488B5F0A88B6DA5B43 /* Keychain-prefix.pch */,
+				2AE24C25076271A954534452D3BAA9F2 /* Keychain-umbrella.h */,
+				C6E08837AC42859508890C54F85E2DD8 /* Keychain.debug.xcconfig */,
+				91872DE436557494E6563274633E03B0 /* Keychain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Keychain";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BB76435DA78291FA2798D67C4319077F /* Pods */,
+				D03C5627CAE034F69F70498D1542CE5E /* Products */,
+				27E9E1C8E52E475B93D782866EA4A8EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D03C5627CAE034F69F70498D1542CE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60716C90CF91E4035F743523FEE67834 /* Keychain */,
+				F2BF6B79BD6AAC665EE209B994ED581D /* Pods-Recipely */,
+				12141C3630109755738C98007F1656AC /* Pods-Recipely-Mock */,
+				3C5064487877ADE13E47D4D69205942D /* Pods-RecipelyTests */,
+				21265337EB369F2A2897AB0CD734D3CA /* Pods-RecipelyUITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF9FE735BD68F0C74CE13793847E9988 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				FA028AB729D0C7FF3BB15BD454ACF6BF /* Support Files */,
+			);
+			name = SwiftGen;
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		FA028AB729D0C7FF3BB15BD454ACF6BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F552A5D981F3D29527363F9A07CAF93 /* SwiftGen.debug.xcconfig */,
+				2249802912A431B96D86C3F378BCA3FB /* SwiftGen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BBE2A9CC44B031E085B838713DD45A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EC98C31D152DBCF00CFC006BD78D89 /* Keychain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF4B86584B2923C8EFFBD3DD3A2EDB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D762A0530D36D92BA3141436B4A57EF /* Pods-RecipelyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DCBD5BFF12D082CCE611FEB94855C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA92C0C51ED204F0F8C26CE3F4E5C31 /* Pods-Recipely-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C097798629510EF3461FED5151182F76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03012EA922A56DEDF7645C8CFC930933 /* Pods-Recipely-Mock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7AB6CFEE4CB6B89C5A549FD207A44FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B776CA70D0EFF315809A7B83930CEB /* Pods-RecipelyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		060A1E1A04B6FBFF75F0C30BBF9E7B23 /* Pods-RecipelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A7144C5E5DD51B7F59A1E8DA38B618 /* Build configuration list for PBXNativeTarget "Pods-RecipelyTests" */;
+			buildPhases = (
+				AAF4B86584B2923C8EFFBD3DD3A2EDB6 /* Headers */,
+				76DE93DA49613F04F98496A9BF0071BD /* Sources */,
+				C78EADB084161DC4AF17546BFEF2500E /* Frameworks */,
+				5B2DA3B2E64F45144BFBFF4B3EA740E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891ECF0392621F54F90B88AD2E2800F1 /* PBXTargetDependency */,
+				092E7ED013A9A87A6F9185E6210D09A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-RecipelyTests";
+			productName = Pods_RecipelyTests;
+			productReference = 3C5064487877ADE13E47D4D69205942D /* Pods-RecipelyTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		0DC548886568616D1B057BB2C225C7F6 /* Pods-Recipely-Mock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F82B4DA84871684E4B18644AABD0E25 /* Build configuration list for PBXNativeTarget "Pods-Recipely-Mock" */;
+			buildPhases = (
+				C097798629510EF3461FED5151182F76 /* Headers */,
+				908E4C12AEF4F9939DC16E040D2D279E /* Sources */,
+				D7798A31B7228FCE9EFB2B33AFB9AB78 /* Frameworks */,
+				D6A4F2E4AA4935866DDB4FCA8B2D869C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53421C8C2E5583E6EA29A857C1A7B771 /* PBXTargetDependency */,
+				F9BC70DFD7D0761F1A5AB330A54B9CB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Recipely-Mock";
+			productName = Pods_Recipely_Mock;
+			productReference = 12141C3630109755738C98007F1656AC /* Pods-Recipely-Mock */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A8749E9CDC8B168F0D79A7CFB552B34 /* Pods-RecipelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52580FC2E29DDE120CFD25ED027BF9C3 /* Build configuration list for PBXNativeTarget "Pods-RecipelyUITests" */;
+			buildPhases = (
+				C7AB6CFEE4CB6B89C5A549FD207A44FF /* Headers */,
+				6DF7B7CBE01017FC838286033F655AC5 /* Sources */,
+				AC8DE1EA940340C03837881B81BDBC69 /* Frameworks */,
+				B96ADF29836FA7279A3E19FAB0AE2F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B680658E945D9223F34EAE126C92A4 /* PBXTargetDependency */,
+				5D70B03EDBC9E15DB3EE27BCFD12CC3F /* PBXTargetDependency */,
+			);
+			name = "Pods-RecipelyUITests";
+			productName = Pods_RecipelyUITests;
+			productReference = 21265337EB369F2A2897AB0CD734D3CA /* Pods-RecipelyUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		54896FAA23BFE8E045730A8BEB3DB059 /* Pods-Recipely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A0F6BB4B33513DDB0BC216821A3853 /* Build configuration list for PBXNativeTarget "Pods-Recipely" */;
+			buildPhases = (
+				B8DCBD5BFF12D082CCE611FEB94855C0 /* Headers */,
+				56E7057A545041974EED1613CA730CBE /* Sources */,
+				A30D214F1D642DBD0C8DA645D3DA26A6 /* Frameworks */,
+				DB90CD6B946F7DD65848007CC906D373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB6BC413EEE586AC0DACC3601D0688A /* PBXTargetDependency */,
+				718974F95B9FE1BE55125395A3D24780 /* PBXTargetDependency */,
+			);
+			name = "Pods-Recipely";
+			productName = Pods_Recipely;
+			productReference = F2BF6B79BD6AAC665EE209B994ED581D /* Pods-Recipely */;
+			productType = "com.apple.product-type.framework";
+		};
+		E99A1AAC0FD1584B1C0B398B33671BEF /* Keychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4D2E8C69E2E6449BB1774D7974F18D /* Build configuration list for PBXNativeTarget "Keychain" */;
+			buildPhases = (
+				1BBE2A9CC44B031E085B838713DD45A5 /* Headers */,
+				A73CCD7B641052247BB9B8E01163B964 /* Sources */,
+				52182A598FC0FF3115AFADF9638B51BF /* Frameworks */,
+				A20521FDBFDBD70F4EBB536D642B8DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keychain;
+			productName = Keychain;
+			productReference = 60716C90CF91E4035F743523FEE67834 /* Keychain */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D03C5627CAE034F69F70498D1542CE5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99A1AAC0FD1584B1C0B398B33671BEF /* Keychain */,
+				54896FAA23BFE8E045730A8BEB3DB059 /* Pods-Recipely */,
+				0DC548886568616D1B057BB2C225C7F6 /* Pods-Recipely-Mock */,
+				060A1E1A04B6FBFF75F0C30BBF9E7B23 /* Pods-RecipelyTests */,
+				3A8749E9CDC8B168F0D79A7CFB552B34 /* Pods-RecipelyUITests */,
+				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2DA3B2E64F45144BFBFF4B3EA740E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20521FDBFDBD70F4EBB536D642B8DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96ADF29836FA7279A3E19FAB0AE2F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A4F2E4AA4935866DDB4FCA8B2D869C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB90CD6B946F7DD65848007CC906D373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56E7057A545041974EED1613CA730CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D205CAEB96E2FA15DE3F49D9B31FA52 /* Pods-Recipely-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF7B7CBE01017FC838286033F655AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4D1F139B37A724DE2100F5378573B /* Pods-RecipelyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DE93DA49613F04F98496A9BF0071BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9D56A602D6F3ABC0D0CA60371E4449 /* Pods-RecipelyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908E4C12AEF4F9939DC16E040D2D279E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16894857105EA29FC50F9BC18C129628 /* Pods-Recipely-Mock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73CCD7B641052247BB9B8E01163B964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333015CC4DD91FAA68ED18D9C482C290 /* Keychain.swift in Sources */,
+				9C6E931CD380E22D9914B780D0897EC5 /* Keychain-dummy.m in Sources */,
+				2EEDE89F63DD6CA98FD12004EC07DC0A /* KeychainItem.swift in Sources */,
+				3055576253E66BFC791064E0ADEA6EB0 /* KeychainItemClass.swift in Sources */,
+				4BCF7B7EC971948B1CE7735D2E9D4219 /* KeychainItemFactory.swift in Sources */,
+				F2FCAF89ED23738AF54ECF40327352C8 /* KeychainProtocolType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092E7ED013A9A87A6F9185E6210D09A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = A345162631602B06CC92BEAF0795F777 /* PBXContainerItemProxy */;
+		};
+		53421C8C2E5583E6EA29A857C1A7B771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keychain;
+			target = E99A1AAC0FD1584B1C0B398B33671BEF /* Keychain */;
+			targetProxy = 00F03B1BB9C659AA9A891D92D2E8211B /* PBXContainerItemProxy */;
+		};
+		5D70B03EDBC9E15DB3EE27BCFD12CC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = 72CADFE1BF3FAE9B5EBF1B4076AF823B /* PBXContainerItemProxy */;
+		};
+		718974F95B9FE1BE55125395A3D24780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = 1EFFD49102408CC1E5E17F15820A491E /* PBXContainerItemProxy */;
+		};
+		891ECF0392621F54F90B88AD2E2800F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keychain;
+			target = E99A1AAC0FD1584B1C0B398B33671BEF /* Keychain */;
+			targetProxy = C86AF8C05F1B8EA1CAFA1FB8CA096CBB /* PBXContainerItemProxy */;
+		};
+		E2B680658E945D9223F34EAE126C92A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keychain;
+			target = E99A1AAC0FD1584B1C0B398B33671BEF /* Keychain */;
+			targetProxy = 2F8711E85C9AB8EEE3887B29AF491453 /* PBXContainerItemProxy */;
+		};
+		F9BC70DFD7D0761F1A5AB330A54B9CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = 3E525B3BBCE186F17BF8150AC9FB481C /* PBXContainerItemProxy */;
+		};
+		FCB6BC413EEE586AC0DACC3601D0688A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keychain;
+			target = E99A1AAC0FD1584B1C0B398B33671BEF /* Keychain */;
+			targetProxy = 9B1D2D837B13D5FFDBD4769F4143A883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FE70B8FB96C529B09C838D24313A3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A3CE39836FC352D4BD0F7BC370CB55 /* Pods-RecipelyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecipelyUITests/Pods-RecipelyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecipelyUITests/Pods-RecipelyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2202230BF25CAB2FDC609A71D79055BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F552A5D981F3D29527363F9A07CAF93 /* SwiftGen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB60F614D25B8000EAC6A5FFA5DF592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E08837AC42859508890C54F85E2DD8 /* Keychain.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Keychain/Keychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keychain/Keychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Keychain/Keychain.modulemap";
+				PRODUCT_MODULE_NAME = Keychain;
+				PRODUCT_NAME = Keychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E185AEA911FA7C71F119CBBF7867489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D17D9F029201B1D7EAE900087998DE87 /* Pods-Recipely-Mock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Recipely-Mock/Pods-Recipely-Mock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Recipely-Mock/Pods-Recipely-Mock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D701CE41344C43F23440817D00F22FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F27AB9E24EEA4907E34C0C3AA040FA /* Pods-RecipelyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecipelyTests/Pods-RecipelyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecipelyTests/Pods-RecipelyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88AF634C88B90E9F2D641F4B19BCCA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CC439B7EA8BD2B79FDF6FEC42F8B19 /* Pods-RecipelyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecipelyUITests/Pods-RecipelyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecipelyUITests/Pods-RecipelyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A79A178FFBE70ACE6FCA0584568F85EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5482036B8613106D9D39F378FBBCC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54C1A45A98801D2D3B78C38AA94FEE6 /* Pods-Recipely-Mock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Recipely-Mock/Pods-Recipely-Mock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Recipely-Mock/Pods-Recipely-Mock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C94F473F4731BF1BD31AE2A7EBD1A51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91872DE436557494E6563274633E03B0 /* Keychain.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Keychain/Keychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keychain/Keychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Keychain/Keychain.modulemap";
+				PRODUCT_MODULE_NAME = Keychain;
+				PRODUCT_NAME = Keychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF3B4AB84D0F77E437676BAFB9C2086C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2249802912A431B96D86C3F378BCA3FB /* SwiftGen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D89859C22CFB2435AB3036D257C1B9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA47893FB168AC620D02A30B8B93F4C /* Pods-RecipelyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecipelyTests/Pods-RecipelyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecipelyTests/Pods-RecipelyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBD46C90DFEEC3A261DB701FBCD4BC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683BA9B19AB56EA873BFAEA16DFC327E /* Pods-Recipely.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Recipely/Pods-Recipely-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Recipely/Pods-Recipely.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED00853F7F905A22B29ED801E1334FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7C8774B8428B79F0E7F6314FD44477 /* Pods-Recipely.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Recipely/Pods-Recipely-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Recipely/Pods-Recipely.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC1B33BD4F14216CBB171450434950A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A0F6BB4B33513DDB0BC216821A3853 /* Build configuration list for PBXNativeTarget "Pods-Recipely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD46C90DFEEC3A261DB701FBCD4BC4C /* Debug */,
+				ED00853F7F905A22B29ED801E1334FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A178FFBE70ACE6FCA0584568F85EE /* Debug */,
+				FC1B33BD4F14216CBB171450434950A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52580FC2E29DDE120CFD25ED027BF9C3 /* Build configuration list for PBXNativeTarget "Pods-RecipelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE70B8FB96C529B09C838D24313A3FF /* Debug */,
+				88AF634C88B90E9F2D641F4B19BCCA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A7144C5E5DD51B7F59A1E8DA38B618 /* Build configuration list for PBXNativeTarget "Pods-RecipelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89859C22CFB2435AB3036D257C1B9CD /* Debug */,
+				5D701CE41344C43F23440817D00F22FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4D2E8C69E2E6449BB1774D7974F18D /* Build configuration list for PBXNativeTarget "Keychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB60F614D25B8000EAC6A5FFA5DF592 /* Debug */,
+				C94F473F4731BF1BD31AE2A7EBD1A51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F82B4DA84871684E4B18644AABD0E25 /* Build configuration list for PBXNativeTarget "Pods-Recipely-Mock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5482036B8613106D9D39F378FBBCC7E /* Debug */,
+				4E185AEA911FA7C71F119CBBF7867489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2202230BF25CAB2FDC609A71D79055BB /* Debug */,
+				CF3B4AB84D0F77E437676BAFB9C2086C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

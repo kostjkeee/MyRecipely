@@ -1,0 +1,76 @@
+
+
+"moduleBuilder.titleRecipes" = "Recipes";
+"moduleBuilder.titleFavorites" = "Favorites";
+"moduleBuilder.titleProfile" = "Profile";
+
+"autorizationView.loginText" = "Login";
+"autorizationView.emailText" = "Email Adress";
+"autorizationView.passwordText" = "Password";
+"autorizationView.emailPlaceholder" = " Enter Email Address";
+"autorizationView.passwordPlaceholder" = "Enter Password";
+"autorizationView.incorrectEmail" = "Incorrect format";
+"autorizationView.incorrectPassword" = "You entered the wrong password";
+"autorizationView.errorLoginText" = "Please check the accuracy of the entered credentials.";
+"autorizationView.toolBarOkButtonText" = "OK";
+
+"recipesViewController.viewTitleText" = "Recipes";
+
+"recepeCategoryView.seatchBarText" = "Search recipes";
+
+"recipeNoDataCell.nothingFoundTitleText" = "Nothing found";
+"recipeNoDataCell.nothingFoundText" = "Try entering your query differently";
+
+"recipeErrorCell.reloadButtonText" = "Reload";
+"recipeErrorCell.noDataText" = "Failed to load data";
+
+"recipesImageDetailCell.cookingTime" = "Cooking time";
+
+
+"recipesCharacteristicsDetailsCell.enercKcal" = "Enerc kcal";
+"recipesCharacteristicsDetailsCell.carbohydrates" = "Carbohydrates";
+"recipesCharacteristicsDetailsCell.fats" = "Fats";
+"recipesCharacteristicsDetailsCell.proteins" = "Proteins";
+
+"favoritesViewController.viewTitleText" = "Favorites";
+"favoritesViewController.emptyFavoritesText" = "There's nothing here yet";
+"favoritesViewController.emptyDescriptionText" = "Add interesting recipes to make ordering products convenient";
+
+
+"profileViewController.viewTitleText" = "Profile";
+"profileViewController.bonusesButtonText" = "Bonuses";
+"profileViewController.termsAndPrivacyButtonText" = "Terms & Privacy Policy";
+"profileViewController.logOutButtonText" = "Log out";
+"profileViewController.alertTitle" = "Are you sure you want to log out?";
+"profileViewController.closeButtonText" = "Close";
+"profileViewController.yesButtonText" = "Yes";
+"profileViewController.cancelButtonText" = "Cancel";
+"profileViewController.okButtonText" = "OK";
+"profileViewController.alertText" = "Change your name and surname";
+"profileViewController.nameSurname" = "Name Surname";
+"profileViewController.termsAndPrivacyAlertMassage" = "Functionality in development";
+
+"profileBonusesViewController.bonusesText" = "Your bonuses";
+
+"privacyView.titleText" = "Terms of Use";
+
+"dishesTableView.accessibilityIdentifier" = "recipesDishesTableView";
+"dishesDetailsBackButton.accessibilityIdentifier" = "detailsBackButtonIdentifier";
+"dishesBackButton.accessibilityIdentifier" = "dishesBackButtonIdentifier";
+"shareButton.accessibilityIdentifier" = "shareButtonIdentifier";
+"addFavoritesButton.accessibilityIdentifier" = "addToFavoritesButtonIdentifier";
+"dishesDetailTableView.accessibilityIdentifier" = "recipesDishesDetailTableView";
+"favoritesTableView.accessibilityIdentifier" = "favoritesTableViewIdentifier";
+"recipesTab.accessibilityIdentifier" = "recipesTab";
+"favoritesTab.accessibilityIdentifier" = "favoritesTab";
+"profileTab.accessibilityIdentifier" = "profileTab";
+"profileTableView.accessibilityIdentifier" = "profileTableViewIdentifier";
+"profile.changeNameButton.accessibilityIdentifier" = "changeNameButtonIdentifier";
+"profile.bonusesView.accessibilityIdentifier" = "profileBonusesView";
+"profile.bonusesView.dismissButton.accessibilityIdentifier" = "bonusesDismissButtonIdentifier";
+"profile.privacyView.accessibilityIdentifier" = "privacyPolicyViewIdentifier";
+"profile.privacyView.dismissButton.accessibilityIdentifier" = "privacyPolicyDismissButtonIdentifier";
+
+
+
+

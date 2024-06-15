@@ -1,0 +1,190 @@
+name: Recipely
+options:
+  bundleIdPrefix: "com.naironfeed"
+  postGenCommand: pod update
+packages:
+  AutorizationFieldLibrary:
+    url: https://github.com/dimmis8/AutorizationFieldLibrary.git
+    majorVersion: 2.0.1
+  Swinject:
+    url: https://github.com/Swinject/Swinject.git
+    majorVersion: 2.8.4
+  GoogleMaps:
+    url: https://github.com/googlemaps/ios-maps-sdk
+    majorVersion: 8.4.0
+targets:
+  Recipely:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.3"
+    sources:
+      - Recipely
+    settings:
+        base:
+            SWIFT_VERSION: 5.0
+            CURRENT_PROJECT_VERSION: 1.0.0
+            MARKETING_VERSION: 1
+            IPHONEOS_DEPLOYMENT_TARGET: "16.3"
+            ENABLE_USER_SCRIPT_SANDBOXING: false
+            
+            INFOPLIST_KEY_UILaunchScreen_Generation: true
+
+            ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS: true
+            ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: true
+            GENERATE_INFOPLIST_FILE: true
+    dependencies:
+      - package: AutorizationFieldLibrary
+      - package: Swinject
+      - package: GoogleMaps
+        product: GoogleMaps
+      - package: GoogleMaps
+        product: GoogleMapsBase
+      - package: GoogleMaps
+        product: GoogleMapsCore
+    preBuildScripts:
+     - script: |
+               if [[ "$(uname -m)" == arm64 ]]; then
+                    export PATH="/opt/homebrew/bin:$PATH"
+               fi
+
+               if which swiftformat > /dev/null; then
+                    swiftformat .
+               else
+                    echo "warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat"
+               fi
+       name: SwiftFormat
+       showEnvVars: false
+       basedOnDependencyAnalysis: false
+     - script: |
+                if [[ "$(uname -m)" == arm64 ]]; then
+                    export PATH="/opt/homebrew/bin:$PATH"
+                fi
+
+                if which swiftlint > /dev/null; then
+                    swiftlint
+                else
+                    echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+                fi
+       name: SwiftLint
+       showEnvVars: false
+       basedOnDependencyAnalysis: false      
+     - script: |
+                if [[ -f "${PODS_ROOT}/SwiftGen/bin/swiftgen" ]]; then
+                    "${PODS_ROOT}/SwiftGen/bin/swiftgen"
+                else
+                    echo "warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it."
+                fi
+       name: SwiftGen
+       showEnvVars: false
+       basedOnDependencyAnalysis: false
+  Recipely-Mock:
+    type: application
+    platform: iOS
+
+    deploymentTarget: "16.3"
+    sources:
+      - Recipely
+    settings:
+        base:
+            SWIFT_VERSION: 5.0
+            CURRENT_PROJECT_VERSION: 1.0.0
+            MARKETING_VERSION: 1
+            IPHONEOS_DEPLOYMENT_TARGET: "16.3"
+            ENABLE_USER_SCRIPT_SANDBOXING: false
+            
+            INFOPLIST_KEY_UILaunchScreen_Generation: true
+            OTHER_SWIFT_FLAGS: "$(inherited) -D Mock"
+
+            ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS: true
+            ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: true
+            GENERATE_INFOPLIST_FILE: true
+    dependencies:
+      - package: AutorizationFieldLibrary
+      - package: Swinject
+    preBuildScripts:
+     - script: |
+               if [[ "$(uname -m)" == arm64 ]]; then
+                    export PATH="/opt/homebrew/bin:$PATH"
+               fi
+
+               if which swiftformat > /dev/null; then
+                    swiftformat .
+               else
+                    echo "warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat"
+               fi
+       name: SwiftFormat
+       showEnvVars: false
+       basedOnDependencyAnalysis: false
+     - script: |
+                if [[ "$(uname -m)" == arm64 ]]; then
+                    export PATH="/opt/homebrew/bin:$PATH"
+                fi
+
+                if which swiftlint > /dev/null; then
+                    swiftlint
+                else
+                    echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+                fi
+       name: SwiftLint
+       showEnvVars: false
+       basedOnDependencyAnalysis: false      
+     - script: |
+                if [[ -f "${PODS_ROOT}/SwiftGen/bin/swiftgen" ]]; then
+                    "${PODS_ROOT}/SwiftGen/bin/swiftgen"
+                else
+                    echo "warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it."
+                fi
+       name: SwiftGen
+       showEnvVars: false
+       basedOnDependencyAnalysis: false
+  RecipelyTests:
+    type: bundle.unit-test
+    platform: iOS
+
+    deploymentTarget: "16.3"
+    sources:
+      - Recipely
+      - Tests
+    settings:
+        base:
+            SWIFT_VERSION: 5.0
+            CURRENT_PROJECT_VERSION: 1.0.0
+            MARKETING_VERSION: 1
+            IPHONEOS_DEPLOYMENT_TARGET: "16.3"
+            ENABLE_USER_SCRIPT_SANDBOXING: false
+            
+            INFOPLIST_KEY_UILaunchScreen_Generation: true
+
+            ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS: true
+            ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: true
+            GENERATE_INFOPLIST_FILE: true
+    dependencies:
+      - package: AutorizationFieldLibrary
+      - package: Swinject
+
+
+  RecipelyUITests:
+    type: bundle.ui-testing
+    platform: iOS
+
+    deploymentTarget: "16.3"
+    sources:
+      - Recipely
+      - RecipelyUITests
+    settings:
+        base:
+            SWIFT_VERSION: 5.0
+            CURRENT_PROJECT_VERSION: 1.0.0
+            MARKETING_VERSION: 1
+            IPHONEOS_DEPLOYMENT_TARGET: "16.3"
+            ENABLE_USER_SCRIPT_SANDBOXING: false
+            
+            INFOPLIST_KEY_UILaunchScreen_Generation: true
+
+            ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS: true
+            ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: true
+            GENERATE_INFOPLIST_FILE: true
+    dependencies:
+      - target: Recipely
+      - package: AutorizationFieldLibrary
+      - package: Swinject
